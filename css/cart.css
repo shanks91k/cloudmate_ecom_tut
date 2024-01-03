@@ -1,0 +1,125 @@
+body {
+    background-color: azure;
+  }
+  #cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+  }
+  #cart table img {
+    width: 160px;
+    height: 160px;
+  }
+  #cart table tbody tr td {
+    padding-top: 15px;
+  }
+  #cart table tbody td {
+    font-size: 22px;
+  }
+  .textcart {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px 0px;
+  }
+  #cart table thead {
+    border: 2px solid rgb(7, 6, 7);
+  }
+  #cart table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 15px 0px;
+  }
+  #cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+  }
+  #cart table td:nth-child(2) {
+    width: 200px;
+    text-align: center;
+  }
+  #cart table td:nth-child(3) {
+    max-width: 150px;
+    text-wrap: balance;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  #cart table td:nth-child(4) {
+    width: 150px;
+    text-align: center;
+  }
+  #cart table td:nth-child(5) {
+    width: 150px;
+    text-align: center;
+  }
+  #cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+  }
+  #cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+  }
+  #cartadd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #coupon {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  #coupon h3 {
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  #coupon input {
+    padding: 10px 20px;
+    outline: none;
+    font-size: 20px;
+    width: 40%;
+    margin-right: 10px;
+    border: 1px solid rgb(73, 46, 46);
+  }
+  #coupon button {
+    font-size: 20px;
+    width: 20%;
+    height: 40px;
+    background-color: rgb(166, 211, 168);
+    color: rgb(226, 230, 224);
+    border-radius: 3%;
+  }
+  #subtotal {
+    width: 40%;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    border: 1px solid rgb(46, 46, 48);
+  }
+  #subtotal table {
+      height:150px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #subtotal table td {
+    border: 1px solid rgb(12, 12, 12);
+    width: 50%;
+    padding: 10px;
+    font-size: 24px;
+  }
+  #subtotal h3{
+      padding-bottom: 13px;
+      padding-left: 20px;
+      font-size: 27px;
+  }
+  #subtotal button{
+      width:50%;
+      font-size: 25px;
+      margin: 10px 170px;
+  }
+  
+  
+  
+  
